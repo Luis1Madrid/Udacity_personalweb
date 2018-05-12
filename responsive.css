@@ -1,0 +1,64 @@
+a .github:hover path {
+  fill: #111;
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+}
+a .linkedin:hover circle {
+  fill: #007bb5;
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+}
+@media screen and (max-width: 500px){
+  h4 {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 899px){
+  .second_project,
+  .third_project {
+    width: 49%;
+    display:inline-block;
+  }
+  .img_project {
+    max-height: 300px;
+    max-width: 400px;
+    display: block;
+    width:auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  a:hover img {
+    transform: scale(1.1);
+  }
+}
+@media screen and (min-width: 900px) {
+  .first_project,
+  .second_project,
+  .third_project {
+    width: 33%;
+    display: inline-block;
+    background-color: #fff;
+  }
+  .img_project {
+    max-width: 400px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .container {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  a:hover img {
+    transform: scale(1.1);
+  }
+}
